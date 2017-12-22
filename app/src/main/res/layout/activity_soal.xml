@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:weightSum="10"
+    android:background="#00CCFF"
+    >
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="SOAL"
+    android:textSize="20dp"/>
+<ImageView
+    android:id="@+id/soal_gambar"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="11"
+    android:layout_marginBottom="30dp"
+    />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="JAWABAN"
+        android:textSize="20dp"/>
+<Button
+    android:id="@+id/jawab_a"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="A. aaa"
+    android:textSize="20dp"/>
+<Button
+    android:id="@+id/jawab_b"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="B. bbb"
+    android:textSize="20dp"/>
+<Button
+    android:id="@+id/jawab_c"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="C. ccc"
+    android:textSize="20dp"/>
+<Button
+    android:id="@+id/jawab_d"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="D. ddd"
+    android:layout_marginBottom="20dp"
+    android:textSize="20dp"/>
+
+<TextView
+    android:id="@+id/simpan_nilai"
+    android:layout_width="0dp"
+    android:layout_height="0dp"
+    android:text="0"
+    />
+    <TextView
+        android:id="@+id/tampil_nama"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="nama"/>
+
+</LinearLayout>

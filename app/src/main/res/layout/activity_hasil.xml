@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:background="@drawable/winner"
+
+    android:weightSum="100">
+    <TextView
+        android:id="@+id/TulisanScore"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="20"
+        android:text="SELAMAT !!!\nNILAI"
+        android:textSize="50dp"
+        android:gravity="center_horizontal"
+        android:textColor="#000000"
+        />
+    <TextView
+        android:id="@+id/nama_user"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="30"
+        android:text="ANDA"
+        android:gravity="center_horizontal"
+        android:textSize="40dp"
+        android:textColor="#FFFFFF"
+        android:background="#000000"/>
+
+    <TextView
+        android:id="@+id/score"
+        android:layout_margin="30dp"
+        android:layout_weight="21"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:background="#FFFFFF"
+        android:text="0"
+        android:textSize="100dp"
+        android:textColor="#000000"/>
+    <Button
+        android:layout_weight="29"
+        android:id="@+id/button_home"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="HOME"
+        />
+
+</LinearLayout>
